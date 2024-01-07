@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ReceiptActivity">
+
+    <TextView
+        android:id="@+id/namaPeminjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Thank you for borrowing book(s) from our place, nama!"
+        android:textStyle="bold"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/baseline_assignment_returned_24"/>
+
+    <TextView
+        android:id="@+id/tglKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Please return borrowed book(s) by date"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Back to Home"
+        android:textSize="20dp"/>
+
+</LinearLayout>
